@@ -1,0 +1,23 @@
+{
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "printWidth": 80,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "semi": false,
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^__app__\/(.*)$",
+    "^pages\/(.*)$",
+    "^widgets\/(.*)$",
+    "^entities\/(.*)$",
+    "^shared\/(.*)$",
+    "^..\/(.*)$",
+    "^.\/(.*)$",
+    ".svg"
+  ]
+}
